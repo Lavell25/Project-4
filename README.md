@@ -14,16 +14,16 @@ This is an app for those who have always wanted to watch anime but has no idea w
 
 ## Wireframes
 
-![here](https://ibb.co/4JQprZX)
-![here](https://ibb.co/vDH4MMh)
-![here](https://ibb.co/rwXZKH5)
-![here](https://ibb.co/wzkSqhf)
-![here](https://ibb.co/1XqpjQk)
-![here](https://ibb.co/km5R0xw)
+![here](https://imgur.com/LtdWo9C)
+![here](https://imgur.com/rgibdCd)
+![here](https://imgur.com/xoCnHoy)
+![here](https://imgur.com/OurNBF1)
+![here](https://imgur.com/fTt4efW)
+![here](https://imgur.com/kPclPOT)
 
 ## Component Hierarchy
 
-![here](https://ibb.co/41nv9jm/Screen-Shot-2022-01-25-at-10-36-42-AM)
+![here](https://ibb.co/41nv9jm/Screen-Shot-2022-01-25.png)
 
 ![here](https://ibb.co/NW4pjXV)
 
