@@ -14,12 +14,12 @@ This is an app for those who have always wanted to watch anime but has no idea w
 
 ## Wireframes
 
-![here](https://imgur.com/LtdWo9C)
-![here](https://imgur.com/rgibdCd)
-![here](https://imgur.com/xoCnHoy)
-![here](https://imgur.com/OurNBF1)
-![here](https://imgur.com/fTt4efW)
-![here](https://imgur.com/kPclPOT)
+![here](https://imgur.com/LtdWo9C.png)
+![here](https://imgur.com/rgibdCd.png)
+![here](https://imgur.com/xoCnHoy.png)
+![here](https://imgur.com/OurNBF1.png)
+![here](https://imgur.com/fTt4efW.png)
+![here](https://imgur.com/kPclPOT.png)
 
 ## Component Hierarchy
 
