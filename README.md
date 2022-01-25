@@ -23,9 +23,9 @@ This is an app for those who have always wanted to watch anime but has no idea w
 
 ## Component Hierarchy
 
-![here](https://ibb.co/41nv9jm/Screen-Shot-2022-01-25.png)
+![here](https://ibb.co/41nv9jm.png)
 
-![here](https://ibb.co/NW4pjXV)
+![here](https://ibb.co/NW4pjXV.png)
 
 ## API and Data Sample
 
