@@ -12,20 +12,27 @@ This is an app for those who have always wanted to watch anime but has no idea w
 
 <br>
 
+## ER Diagram
+
+![here](https://imgur.com/UIQD7du.png)
+
 ## Wireframes
 
-![here](https://imgur.com/LtdWo9C.png)
-![here](https://imgur.com/rgibdCd.png)
-![here](https://imgur.com/xoCnHoy.png)
-![here](https://imgur.com/OurNBF1.png)
-![here](https://imgur.com/fTt4efW.png)
-![here](https://imgur.com/kPclPOT.png)
+![here](https://imgur.com/GJ98aMb.png)
+![here](https://imgur.com/szeJcOl.png)
+![here](https://imgur.com/dNXejeV.png)
+![here](https://imgur.com/1RsaAXL.png)
+![here](https://imgur.com/opkPlHH.png)
+![here](https://imgur.com/yJoBE3C.png)
+![here](https://imgur.com/TGA9Okw.png)
+![here](https://imgur.com/hNgUpNb.png)
+![here](https://imgur.com/2ace9VN.png)
 
 ## Component Hierarchy
 
 ![here](https://imgur.com/smOAvpg.png)
 
-![here](https://imgur.com/smOAvpg.png)
+![here](https://imgur.com/2ace9VN.png)
 
 ## API and Data Sample
 
