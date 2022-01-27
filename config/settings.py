@@ -23,7 +23,7 @@ SECRET_KEY = 'django-insecure-h4@rb_t9)7ll38(e8b9(ukxb^5era&nd*h1b+czn2m0h$7k^-(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['todo-yay.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['anime-database1.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -36,7 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'todo'
+    'anime'
 ]
 
 MIDDLEWARE = [
@@ -81,10 +81,10 @@ else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql',
-            'NAME': 'todo_yay',
-            'USER': 'todo_yay_admin',
+            'NAME': 'anime',
+            'USER': 'anime_admin',
             'PASSWORD': 'password',
-            'HOST': 'localhost'
+            'HOST': 'localhost',
         }
     }
 
