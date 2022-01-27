@@ -37,7 +37,7 @@ SECRET_KEY = 'django-insecure-man)ofq%k=gha@ez+ij_(4#99v$lmk^whd0@6-k7192zhcgy5^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['anime-database1.herokuapp.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['anime-database1.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -88,22 +88,22 @@ WSGI_APPLICATION = 'config.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
-if IS_PRODUCTION:
-    DATABASES = {
-        'default': dj_database_url.config(conn_max_age=600, ssl_require=True)
-    }
-else:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql',
-            'NAME': 'anime',
-            'USER': 'anime_admin',
-            'PASSWORD': 'password',
-            'HOST': 'localhost',
-        }
-    }
 
 
+"""
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'anime',
+        'USER': 'anime_admin',
+        'PASSWORD': 'password',
+        'HOST': 'localhost',
+    }
+}
+"""
+DATABASES = {
+    'default': dj_database_url.config(
+        conn_max_age=600, ssl_require=True)}
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
 
@@ -140,21 +140,16 @@ USE_TZ = True
 
 #STATIC_URL = 'static/'
 
-if IS_PRODUCTION:
-    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-    STATIC_URL = '/static/'
-    STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
-else:
-    STATIC_URL = 'static/'
-
+# if IS_PRODUCTION:
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_URL = '/static/'
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
+# else:
+# STATIC_URL = '/static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': (
-        'rest_framework_simplejwt.authentication.JWTAuthentication',
-    )
-}
