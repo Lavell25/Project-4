@@ -20,7 +20,7 @@ class Anime(models.Model):
     level = models.CharField(max_length=256)
     creator = models.ForeignKey(
         Creator, on_delete=models.CASCADE, related_name='animes')
-    image = models.URLField(max_length=1000)
+    image = models.URLField(max_length=1000, default='www.google.com')
 
     def __str__(self):
         return self.title
