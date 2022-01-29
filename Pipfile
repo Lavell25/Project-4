@@ -16,6 +16,7 @@ dj-database-url = "*"
 python-dotenv = "*"
 accounts = "*"
 django-extensions = "*"
+django-cors-headers = "*"
 
 [dev-packages]
 

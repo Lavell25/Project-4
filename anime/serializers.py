@@ -3,7 +3,7 @@ from .models import Anime, Creator
 from django.contrib.auth.models import User
 
 
-class CreatorSerializer(serializers.HyperlinkedModelSerializer):
+class CreatorSerializer(serializers.ModelSerializer):
     animes = serializers.StringRelatedField(many=True)
 
     class Meta:
