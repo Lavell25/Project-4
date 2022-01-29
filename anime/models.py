@@ -6,10 +6,9 @@ from django.urls import reverse
 
 
 class Creator(models.Model):
-    name = models.CharField(max_length=256, blank=True, null=True)
-    birthyear = models.CharField(max_length=256, blank=True, null=True)
-    country = models.CharField(max_length=256, blank=True, null=True)
-    image = models.CharField(max_length=256, blank=True, null=True)
+    name = models.CharField(max_length=256)
+    country = models.CharField(max_length=256)
+    image = models.CharField(max_length=256)
 
     def __str__(self):
         return self.name
