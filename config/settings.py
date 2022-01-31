@@ -91,7 +91,6 @@ else:
             'USER': 'anime_admin',
             'PASSWORD': 'password',
             'HOST': 'localhost',
-            # 'PORT': '5432',
         }
     }
 

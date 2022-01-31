@@ -21,7 +21,7 @@ class Anime(models.Model):
     favortieCharacter = models.CharField(max_length=256)
     level = models.CharField(max_length=256)
     creator = models.ForeignKey(
-        Creator, on_delete=models.CASCADE, related_name='animes')
+        Creator, on_delete=models.CASCADE, related_name='animes', null=True)
     image = models.CharField(max_length=1000, default='www.google.com')
 
     def __str__(self):
