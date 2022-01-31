@@ -1,17 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Bangers&family=Kalam:wght@700&family=Ultra&display=swap");
 
-.creator-detail {
+.anime-detail {
   display: grid;
-  justify-content: center;
-  padding: 100px;
-  padding-top: 80px;
-  background-color: rgb(235, 200, 147);
+  grid-template-columns: 200px 100px;
 }
 
 .detail {
   display: flex;
   flex-direction: column;
   line-height: 1.6;
+}
+
+img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
 }
 
 .name {
@@ -27,7 +31,7 @@
   letter-spacing: 0.9px;
 }
 
-.creator-detail-image {
+.anime-detail-image {
   width: 300px;
   padding: 0 40px;
 }
@@ -77,10 +81,6 @@
   width: 100%;
 }
 
-.creator-observations {
-  width: 100%;
-}
-
 .review-submit-button {
   width: 50%;
 }
@@ -89,12 +89,12 @@
   .name {
     font-size: 32px;
   }
-  .creator-detail-image {
+  .anime-detail-image {
     width: 500px;
     margin-top: -100px;
     padding: 10px;
   }
-  .creator-detail {
+  .nft-detail {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -103,12 +103,12 @@
 }
 
 @media (max-width: 800px) {
-  .creator-detail-image {
+  .nft-detail-image {
     width: 300px;
     margin: 15px;
     padding: 10px;
   }
-  .creator-detail {
+  .nft-detail {
     padding: 0px;
     padding-top: 120px;
   }

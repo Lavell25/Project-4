@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import './AnimeCards.css'
-import AnimeDetails from '../AnimeDetail/AnimeDetail'
+import AnimeCard from '../AnimeCard/AnimeCard'
 import { getAnimes } from '../../services/animeConfig'
 
 const AnimeCards = () => {
@@ -18,10 +18,15 @@ const AnimeCards = () => {
     .reverse()
     .map((anime, index) =>
       index < 8 ? (
-        <AnimeDetails
-          _id={anime._id}
+        <AnimeCard
+          _id={anime.url}
           name={anime.name}
-          imgURL={anime.imgURL}
+          image={anime.image}
+          favoriteCharacter={anime.favoriteCharacter}
+          level={anime.level}
+          description={anime.description}
+          released={anime.released}
+          creator={anime.creator}
           key={index}
         />
       ) : null
@@ -29,7 +34,6 @@ const AnimeCards = () => {
 
   return (
     <div className='product-cards'>
-      <div className='latest'>LATEST</div>
       <div className='cards'>{CARDS}</div>
     </div>
   )

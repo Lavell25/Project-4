@@ -20,7 +20,7 @@ export const getCreator = async (id) => {
 
 export const createCreator = async (creator) => {
   try {
-    const response = await api.post("/creators", creator);
+    const response = await api.post("/creators/", creator);
     return response.data;
   } catch (error) {
     throw error;

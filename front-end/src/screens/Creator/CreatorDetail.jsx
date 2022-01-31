@@ -24,10 +24,21 @@ const CreatorDetail = (props) => {
 
 
   return (
+    
     <Layout>
       <div className="creator-detail">
-        <h4>{creator.name}</h4>
-      </div>
+      <div className="anime-imgs">
+              <img
+                className="anime-image"
+                src={creator.image}
+                alt={id}></img>
+        </div>
+        <div className="level">
+             Beginner, Intermediate or Advance Level:</div>
+              <div className="creator-name">{creator.name}</div>
+            </div>
+            <div className="style"> Released:</div>
+              <div>{creator.country}</div>
     </Layout>
   );
 };

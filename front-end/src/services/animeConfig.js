@@ -20,7 +20,7 @@ export const getAnime = async (id) => {
 
 export const createAnime = async (anime) => {
   try {
-    const response = await api.post("/animes", anime);
+    const response = await api.post("/animes/", anime);
     return response.data;
   } catch (error) {
     throw error;

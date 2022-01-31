@@ -1,13 +1,13 @@
 import "./Home.css"
 import Layout from "../../components/Layout/Layout";
-import Animes from "../Animes/Animes";
+import AnimeCards from "../../components/AnimeCards/AnimeCards";
 
 
 const Home = (props) => {
   return (
     <Layout user={props.user}>
       <div className='home-page'>
-      <Animes />
+      <AnimeCards />
       </div>
 
     </Layout>
